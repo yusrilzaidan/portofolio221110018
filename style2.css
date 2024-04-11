@@ -327,3 +327,14 @@ h3 {
 .CONTACT p {
     font-size: 18px;
 }
+@media screen and (max-width) {
+    .nav-menu ul {
+        display:none;
+    }
+    .menu-toogle{
+        display: flex;
+    }
+    .menu-toggle input:checked ~ul{
+        left: 0;
+    }
+}
